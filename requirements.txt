@@ -1,0 +1,16 @@
+pandas
+pytest
+sqlalchemy
+numpy
+matplotlib
+seaborn
+requests
+pytest-cov
+sqlalchemy
+psycopg2-binary
+pyarrow
+openpyxl
+pytest-sqlalchemy
+faker
+factory_boy
+sqlalchemy2-stubs

@@ -8,7 +8,7 @@ from sqlalchemy import create_engine,text
 filepath = __file__ #現在実行中のファイルディレクトリを取得.pyまで
 csvpath = "readCsv/"
 username=os.getenv("SQL_USERNAME")
-userpass=os.getenv("SQL_PAASWORD")
+userpass=os.getenv("SQL_PASSWORD")
 
 readPath = pathlib.Path(filepath).parent #現在のディレクトリのカレントディレクトリを取得
 

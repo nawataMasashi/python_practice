@@ -14,3 +14,4 @@ pytest-sqlalchemy
 faker
 factory_boy
 sqlalchemy2-stubs
+faker

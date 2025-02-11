@@ -7,6 +7,8 @@ import os
 
 csv_name = "testCsv.csv"
 path = os.getenv('CSV_PATH')
+if path is None:
+    raise ValueError("環境変数'csv_path'が設定されていません")
 csvPath = path + '\\' + csv_name
 
 def csvCreate() :
